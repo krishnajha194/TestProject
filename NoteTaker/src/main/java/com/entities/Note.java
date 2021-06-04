@@ -11,6 +11,7 @@ import javax.persistence.Table;
 @Entity
 @Table(name="notes")
 public class Note {
+	//id
 	@Id
 	private int id;
 	private String title;
